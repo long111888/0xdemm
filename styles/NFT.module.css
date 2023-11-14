@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+}
+
+.nftlist {
+    /* flex: 9; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 18px; */
+    padding: 36px 0 0 0px;
+    min-width: 436px;
+    height: calc(100vh - 220px);
+    overflow: auto;
+}
+
+.fuseNFTList {
+    position: fixed;
+    top: 160px;
+    left: calc(100vw/2 - 512px);
+    width: 436px;
+    height: calc(100vh - 220px);
+    overflow: auto;
+    z-index: 88;
+    background-color: #000;
+    border-right: 1px solid #333;
+}
+
+.fee {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.separate {
+    flex: 1px;
+    width: 1px;
+    height: 100%;
+    min-height: calc(100vh - 200px);
+    border-left: 1px solid #333  
+}
+
+.nftdetail {
+    flex: 20;
+}
+
+.fuse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.l1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.l2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.l3 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+}

@@ -1,0 +1,113 @@
+.container {
+    height: 580px;
+    width: 460px;
+    margin-top: 58px;
+    position: relative;
+    left: calc( 50% - 230px );
+
+    composes: flex_column from './common.css';
+    composes: tiny_border from './common.css';
+
+    row-gap: 10px;
+    border-radius: 5px;
+}
+
+.title {
+    margin-top: 28px;
+    composes: font_title from './common.css';
+    color: white;
+}
+
+.icon {
+    composes: normal_icon from './common.css';
+    border-radius: 100%;
+}
+
+.image {
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+
+    margin: 50px 0 38px 0;
+}
+
+.tip {
+    composes: font_small from './common.css';
+}
+
+.button {
+    composes: flex_row from './common.css';
+    composes: tiny_border from './common.css';
+   
+    width: 80%;
+    height: 48px;
+
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.button_green {
+    composes: button;
+    border-color: #6300bf;
+    background-color: #4ea45c;
+}
+
+.button_red {
+    composes: button;
+    border-color: #420080;
+    background-color: #c00017;
+}
+
+.button_gray {
+    composes: button;
+    justify-content: space-around;
+    border-color: #333333;
+    background-color: #333333;
+    /* margin-top: 10px; */
+}
+
+.separate {
+    height: 1px;
+    width: 100%;
+    composes: tiny_border from './common.css';
+
+    margin: 34px 0 18px 0;
+}
+
+
+.button_circle {
+    composes: flex_row from './common.css';
+    composes: tiny_border from './common.css';
+    composes: font_small from './common.css';
+
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 20px;
+
+    width: 60%;
+    height: 40px;
+
+    column-gap: 10px;
+}
+
+.pointer_cursor {
+    cursor: pointer;
+}
+
+.font_blue {
+    composes: font_normal from './common.css';
+    color: #02a7f0;
+    /* color: #000; */
+    padding-bottom: 16px;
+}
+
+.umask {
+    composes: flex_column from './common.css';
+    width: 100%;
+    height: 100%;
+    background: rgba(125, 125, 125, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+  }

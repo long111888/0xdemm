@@ -1,0 +1,16 @@
+{
+    "HTTPHeaders": {
+      "Access-Control-Allow-Origin": ["*"],
+      "Access-Control-Allow-Methods": ["GET"],
+      "X-Content-Type-Options": ["nosniff"]
+    },
+    "Datastore": {
+      "BloomFilterSize": 0,
+      "GCPeriod": "1h"
+    },
+    "Gateway": {
+      "Redirect": {
+        "Type": "trailing-slash"
+      }
+    }
+}

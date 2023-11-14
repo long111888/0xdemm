@@ -1,0 +1,42 @@
+.container {
+    z-index: 100;
+    position: absolute;
+    width: 480px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.header {
+    height: 64px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.icon {
+    height: 16px;
+    width: 16xp;
+}
+
+.separate {
+    width: 80%;
+    height: 1px;
+
+    border: 1px;
+    border-right-style: solid;
+    border-color: #6300bf;  
+}
+
+.button {
+    margin: 0px 16px;
+    height: 40px;
+    width: calc(100% - 32px);
+    border: none;
+  
+    background-color: #f40000;
+  }
+
